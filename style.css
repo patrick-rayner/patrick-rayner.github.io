@@ -2,7 +2,7 @@
 
 /* body styles */
 body {
-  font-family: ubuntu, sans-serif;
+  font-family: 'ubuntu', sans-serif;
   background-color: #EAE2B7;
   color: #003049;
 }
@@ -10,14 +10,15 @@ body {
 /* hero-title*/
 .hero-title{
   font-size: 45px;
-  font-weight: 800;
+  font-weight: 550;
+  letter-spacing: -2px;
 }
 
 /* photo style*/
 .profile-image{
-  border: 10px solid #003049;
+  border: 6px solid #003049;
   border-radius: 100%;
-  width: 200px;
+  width: 180px;
 }
 
 .color-text-red{
