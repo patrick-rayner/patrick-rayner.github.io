@@ -1,24 +1,19 @@
-/* Página de estilos do portfólio de Patrick Rayner */
+/* stylesheet from patrick rayner */
 
-/* Estilos do body */
+/* body styles */
 body {
   font-family: ubuntu, sans-serif;
   background-color: #EAE2B7;
   color: #003049;
 }
 
-/* Estilos do botão da pagina */
-.button{
-  background: #003049;
-  border-radius: 15px; 
-  padding: 15px; 
-  cursor: pointer; 
-  color: #FCBF49; 
-  border: none; 
-  font-size: 16px;
+/* hero-title*/
+.hero-title{
+  font-size: 45px;
+  font-weight: 800;
 }
 
-/* Estilos da foto */
+/* photo style*/
 .profile-image{
   border: 10px solid #003049;
   border-radius: 100%;
@@ -27,4 +22,15 @@ body {
 
 .color-text-red{
   color: #D62828;
+}
+
+/* button style */
+.button{
+  background: #003049;
+  border-radius: 15px; 
+  padding: 15px; 
+  cursor: pointer; 
+  color: #FCBF49; 
+  border: none; 
+  font-size: 16px;
 }
