@@ -1,17 +1,30 @@
 /* Página de estilos do portfólio de Patrick Rayner */
 
+/* Estilos do body */
 body {
   font-family: ubuntu, sans-serif;
   background-color: #EAE2B7;
+  color: #003049;
 }
 
 /* Estilos do botão da pagina */
 .button{
-  background: #069cc2;
+  background: #003049;
   border-radius: 15px; 
   padding: 15px; 
   cursor: pointer; 
-  color: #fff; 
+  color: #FCBF49; 
   border: none; 
   font-size: 16px;
+}
+
+/* Estilos da foto */
+.profile-image{
+  border: 10px solid #003049;
+  border-radius: 100%;
+  width: 200px;
+}
+
+.color-text-red{
+  color: #D62828;
 }
