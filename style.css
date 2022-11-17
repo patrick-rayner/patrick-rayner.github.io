@@ -1,0 +1,16 @@
+/* Página de estilos do portfólio de Patrick Rayner */
+
+body {
+  
+}
+
+/* Estilos do botão da pagina */
+.button{
+  background: #069cc2;
+  border-radius: 15px; 
+  padding: 15px; 
+  cursor: pointer; 
+  color: #fff; 
+  border: none; 
+  font-size: 16px;
+}
