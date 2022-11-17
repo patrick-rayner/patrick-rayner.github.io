@@ -1,5 +1,13 @@
 /* stylesheet from patrick rayner */
 
+#color-pallete{
+  color: #003049;
+  color: #D62828;
+  color: #F77F00;
+  color: #FCBF49;
+  color: #EAE2B7;
+}
+
 /* body styles */
 body {
   font-family: 'ubuntu', sans-serif;
@@ -34,4 +42,10 @@ body {
   color: #FCBF49; 
   border: none; 
   font-size: 16px;
+}
+
+/* trybe-link */
+.trybe-link{
+  text-decoration: none;
+  color:#003049;
 }
