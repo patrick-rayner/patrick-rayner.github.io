@@ -1,7 +1,8 @@
 /* Página de estilos do portfólio de Patrick Rayner */
 
 body {
-  
+  font-family: ubuntu, sans-serif;
+  background-color: #EAE2B7;
 }
 
 /* Estilos do botão da pagina */
