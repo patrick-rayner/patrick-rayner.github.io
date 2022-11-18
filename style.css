@@ -1,5 +1,6 @@
 /* stylesheet from patrick rayner */
 
+/* color pallete for copy/paste */
 #color-pallete{
   color: #003049;
   color: #D62828;
@@ -8,11 +9,43 @@
   color: #EAE2B7;
 }
 
+/* .topnav {
+  overflow: hidden;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a {
+  color: #003049;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #003049;
+  color: #FCBF49;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.topnav a.active {
+  background-color: #003049;
+  color: white;
+  } */
+
 /* body styles */
 body {
   font-family: 'ubuntu', sans-serif;
   background-color: #EAE2B7;
   color: #003049;
+}
+
+h3 {
+  font-size: 1.7em;
 }
 
 /* hero-title*/
@@ -31,6 +64,8 @@ body {
 
 .color-text-red{
   color: #D62828;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* button style */
@@ -47,5 +82,6 @@ body {
 /* trybe-link */
 .trybe-link{
   text-decoration: none;
-  color:#003049;
+  color:#D62828;
+  font-weight: bold;
 }
