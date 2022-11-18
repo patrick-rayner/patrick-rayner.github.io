@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 
-<!-- Abre o html e declara o idioma da página -->
+<!-- html begin's and language of the page -->
 <html lang="en">
-  <head>
 
-    <!-- Habilita o uso de caracteres especiais -->
+  <head>
+    <!-- special characteres enable -->
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Configuração inicial de browser e witdh -->
+    <!-- browser configuration -->
     <meta name="viewport" content="width=device-width", initial-scale=1.0>
 
-    <!-- Importa a fonte desejada pelo google -->
+    <!-- google font external import -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">  
 
-    <!-- Importa a página de estilos 'css' externa -->
+    <!-- css external import -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Altera o título de exibição da página -->
+    <!-- page exibition title -->
     <title>About Me</title>
 </head>
 
-<!-- Início do body -->
+<!-- body begin's -->
 <body>
 
-<!-- Hero text -->
-<h1>Patrick Rayner Garrido Guedes</h1>
+  <!-- <header>
+    <div class="topnav">
+      <a href="#home">About</a>
+      <a href="#news">Contact</a>
+    </div> 
+  </header> -->
 
-<!-- Foto do perfil de portfolio -->
-<img src="./images/me-at-greenwich.jpeg" alt="picture from patrick" class="profile-image">
+<!-- hero text -->
+  <h1 class="hero-title">Patrick Rayner Garrido Guedes</h1>
 
-<!-- Legenda da foto -->
-<p>My name is <strong>Patrick Rayner</strong> and i'm currently a Web Dev Student at @trybe from <strong class="color-text-red">Brazil, Belo Horizonte</strong></p>
+<!-- profile photo -->
+  <img src="./images/me-at-greenwich.jpeg" alt="picture from patrick" class="profile-image">
 
-<!-- Subtítulo -->
-<h3>Hard Skills</h3>
-<p>
+<!-- photo description -->
+  <p>My name is <strong>Patrick Rayner</strong> and i'm currently a Web Dev Student at <a href="https://www.betrybe.com/" class="trybe-link">@trybe</a> from <strong class="color-text-red">Brazil, Belo Horizonte</strong></p>
+
+<!-- content -->
+  <h3>Skills</h3>
+  <p>
   <ul>
-  <li><em>Good knowledge:</em>
+  <li><strong>Hard Skills:</strong> <em>Academic experience</em>
     <ul>
       <li>Git</li>
       <li>GitHub</li>
@@ -47,7 +54,8 @@
       <li>CSS</li>
       <li>JS</li>
     </ul>
-  <li><strong>Work-In knowledge:</strong>
+    <br>
+  <li><strong>Hard Skills:</strong> <em>Work experience</em>
     <ul>
       <li>Photoshop</li>
       <li>Illustrator</li>
@@ -57,7 +65,7 @@
   </ul>
   <br>
 
-  <!-- Botão com link redirecionando para outra página -->
+<!-- Botão com link redirecionando para outra página -->
   <a href="https://www.behance.net/pa3q" target="_blank"><button class="button">Graphic Designer Portfolio</button></a>
 </p>
 
