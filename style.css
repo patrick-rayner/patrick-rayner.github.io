@@ -1,15 +1,20 @@
 /* stylesheet from patrick rayner */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* color pallete for copy/paste */
 #color-pallete{
   color: #003049;
   color: #D62828;
   color: #F77F00;
   color: #FCBF49;
-  color: #EAE2B7;
+  color: #fff9d8;
 }
 
-/* .topnav {
+.topnav {
   overflow: hidden;
   text-align: center;
   padding: 14px 16px;
@@ -35,13 +40,14 @@
 .topnav a.active {
   background-color: #003049;
   color: white;
-  } */
+  }
 
 /* body styles */
 body {
   font-family: 'ubuntu', sans-serif;
-  background-color: #EAE2B7;
+  background-color: #fff9d8;
   color: #003049;
+  text-align: center;
 }
 
 h3 {
@@ -50,9 +56,24 @@ h3 {
 
 /* hero-title*/
 .hero-title{
-  font-size: 45px;
+  font-size: 32px;
   font-weight: 550;
   letter-spacing: -2px;
+  padding: 20px;
+}
+
+.bio{
+  background-color:#F77F00;
+  padding: 2%;
+  text-align: center;
+  width: 230px;
+  margin: auto;
+  border-radius: 10%;
+  vertical-align: middle
+}
+
+.bio p {
+  padding: 10px;
 }
 
 /* photo style*/
